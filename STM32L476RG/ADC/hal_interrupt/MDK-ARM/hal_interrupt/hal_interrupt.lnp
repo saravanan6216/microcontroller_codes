@@ -1,0 +1,23 @@
+--cpu=Cortex-M4.fp.sp --branchpatch=sdcomp-29491-629360
+"hal_interrupt\startup_stm32l476xx.o"
+"hal_interrupt\main.o"
+"hal_interrupt\stm32l4xx_it.o"
+"hal_interrupt\stm32l4xx_hal_msp.o"
+"hal_interrupt\stm32l4xx_hal.o"
+"hal_interrupt\stm32l4xx_hal_rcc.o"
+"hal_interrupt\stm32l4xx_hal_rcc_ex.o"
+"hal_interrupt\stm32l4xx_hal_flash.o"
+"hal_interrupt\stm32l4xx_hal_flash_ex.o"
+"hal_interrupt\stm32l4xx_hal_flash_ramfunc.o"
+"hal_interrupt\stm32l4xx_hal_gpio.o"
+"hal_interrupt\stm32l4xx_hal_dma.o"
+"hal_interrupt\stm32l4xx_hal_dma_ex.o"
+"hal_interrupt\stm32l4xx_hal_pwr.o"
+"hal_interrupt\stm32l4xx_hal_pwr_ex.o"
+"hal_interrupt\stm32l4xx_hal_cortex.o"
+"hal_interrupt\stm32l4xx_hal_exti.o"
+"hal_interrupt\system_stm32l4xx.o"
+--strict --scatter "hal_interrupt\hal_interrupt.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "hal_interrupt.map" -o hal_interrupt\hal_interrupt.axf
