@@ -1,0 +1,15 @@
+main.o: main.c
+main.o: D:\Keil_v4\ARM\Inc\Philips\LPC214x.h
+main.o: clock.h
+main.o: timer.h
+main.o: UART.h
+main.o: ADC.h
+main.o: LCD.h
+main.o: D:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h
+main.o: D:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h
+main.o: D:\Keil_v4\ARM\ARMCC\bin\..\include\stdio.h
+main.o: DAC.h
+main.o: interrupt.h
+main.o: SPI.h
+main.o: D:\Keil_v4\ARM\ARMCC\bin\..\include\string.h
+main.o: LCD-16x2-8bit.h

@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\proteuscode\LPC_KEIL_code\lpcRTOS\RTOSLPC.uvproj
+Project File Date:  06/30/2023
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling portASM.s...
+compiling main.c...
+lcd.h(52): warning:  #1-D: last line of file ends without a newline
+main.c(19): error:  #29: expected an expression
+main.c(19): error:  #20: identifier "i" is undefined
+main.c(21): error:  #20: identifier "volt" is undefined
+main.c(32): error:  #268: declaration may not appear after executable statement in block
+main.c(32): error:  #67: expected a "}"
+main.c(38): error:  #20: identifier "volt" is undefined
+main.c(39): error:  #29: expected an expression
+main.c(42): warning:  #223-D: function "data" declared implicitly
+main.c(55): error:  #20: identifier "volt" is undefined
+main.c(59): error:  #167: argument of type "int" is incompatible with parameter of type "unsigned char *"
+main.c(62): error:  #167: argument of type "int" is incompatible with parameter of type "unsigned char *"
+main.c(81): warning:  #1-D: last line of file ends without a newline
+Target not created

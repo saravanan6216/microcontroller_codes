@@ -1,0 +1,99 @@
+Dependencies for Project 'task_bitsilica_rtos_lpc', Target 'Target 1': (DO NOT MODIFY !)
+F (.\heap_2.c)(0x56FBBC45)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include -I D:\Keil_v4\ARM\RV31\INC -I D:\Keil_v4\ARM\CMSIS\Include -I D:\Keil_v4\ARM\Inc\Philips -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o "heap_2.o" --omf_browse "heap_2.crf" --depend "heap_2.d")
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0F5AC)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h)(0x56FBBC44)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0F5A6)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0F5AC)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x6493E718)
+I (D:\Keil_v4\ARM\Inc\Philips\lpc214x.h)(0x4F585AA4)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x56FBBC45)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\task.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h)(0x56FBBC44)
+F (.\list.c)(0x56FBBC44)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include -I D:\Keil_v4\ARM\RV31\INC -I D:\Keil_v4\ARM\CMSIS\Include -I D:\Keil_v4\ARM\Inc\Philips -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o "list.o" --omf_browse "list.crf" --depend "list.d")
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0F5AC)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h)(0x56FBBC44)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0F5A6)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0F5AC)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x6493E718)
+I (D:\Keil_v4\ARM\Inc\Philips\lpc214x.h)(0x4F585AA4)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x56FBBC45)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h)(0x56FBBC44)
+F (.\main.c)(0x64A275F7)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include -I D:\Keil_v4\ARM\RV31\INC -I D:\Keil_v4\ARM\CMSIS\Include -I D:\Keil_v4\ARM\Inc\Philips -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0F5AC)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h)(0x56FBBC44)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0F5A6)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0F5AC)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x6493E718)
+I (D:\Keil_v4\ARM\Inc\Philips\lpc214x.h)(0x4F585AA4)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x56FBBC45)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\task.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h)(0x56FBBC44)
+I (uart0.h)(0x649E5B8C)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\semphr.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\queue.h)(0x56FBBC44)
+I (LCD.h)(0x64A27573)
+F (.\port.c)(0x56FBBC45)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include -I D:\Keil_v4\ARM\RV31\INC -I D:\Keil_v4\ARM\CMSIS\Include -I D:\Keil_v4\ARM\Inc\Philips -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o "port.o" --omf_browse "port.crf" --depend "port.d")
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0F5AC)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h)(0x56FBBC44)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0F5A6)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0F5AC)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x6493E718)
+I (D:\Keil_v4\ARM\Inc\Philips\lpc214x.h)(0x4F585AA4)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x56FBBC45)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\task.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h)(0x56FBBC44)
+F (.\queue.c)(0x56FBBC45)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include -I D:\Keil_v4\ARM\RV31\INC -I D:\Keil_v4\ARM\CMSIS\Include -I D:\Keil_v4\ARM\Inc\Philips -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o "queue.o" --omf_browse "queue.crf" --depend "queue.d")
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0F5AC)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0F5AE)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h)(0x56FBBC44)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0F5A6)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0F5AC)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x6493E718)
+I (D:\Keil_v4\ARM\Inc\Philips\lpc214x.h)(0x4F585AA4)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x56FBBC45)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\task.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\queue.h)(0x56FBBC44)
+F (.\Startup.s)(0x649E6223)(--cpu ARM7TDMI -g --apcs=interwork -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -I D:\Keil_v4\ARM\RV31\INC -I D:\Keil_v4\ARM\CMSIS\Include -I D:\Keil_v4\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\tasks.c)(0x56FBBC45)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include -I D:\Keil_v4\ARM\RV31\INC -I D:\Keil_v4\ARM\CMSIS\Include -I D:\Keil_v4\ARM\Inc\Philips -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o "tasks.o" --omf_browse "tasks.crf" --depend "tasks.d")
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0F5AC)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0F5AE)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h)(0x56FBBC44)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0F5A6)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0F5AC)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x6493E718)
+I (D:\Keil_v4\ARM\Inc\Philips\lpc214x.h)(0x4F585AA4)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x56FBBC45)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\task.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\timers.h)(0x56FBBC44)
+I (D:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\StackMacros.h)(0x56FBBC44)
+F (.\LCD.h)(0x64A27573)()
+F (.\serial.h)(0x6493E997)()
+F (.\UART.h)(0x649E5AC7)()
+F (.\uart0.h)(0x649E5B8C)()
+F (.\portASM.s)(0x56FBBC45)(--cpu ARM7TDMI -g --apcs=interwork -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -I D:\Keil_v4\ARM\RV31\INC -I D:\Keil_v4\ARM\CMSIS\Include -I D:\Keil_v4\ARM\Inc\Philips --list "portASM.lst" --xref -o "portASM.o" --depend "portASM.d")

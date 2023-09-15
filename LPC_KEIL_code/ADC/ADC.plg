@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\proteuscode\LPC_KEIL_code\ADC\ADC.uvproj
+Project File Date:  06/08/2023
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+ADC.h(10): warning:  #61-D: integer operation result is out of range
+ADC.h(10): warning:  #68-D: integer conversion resulted in a change of sign
+ADC.h(16): warning:  #61-D: integer operation result is out of range
+ADC.h(16): warning:  #68-D: integer conversion resulted in a change of sign
+ADC.h(23): warning:  #1-D: last line of file ends without a newline
+LCD.h(62): warning:  #1-D: last line of file ends without a newline
+main.c(25): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=2048 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"ADC.axf" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+ADC.h(10): warning:  #61-D: integer operation result is out of range
+ADC.h(10): warning:  #68-D: integer conversion resulted in a change of sign
+ADC.h(16): warning:  #61-D: integer operation result is out of range
+ADC.h(16): warning:  #68-D: integer conversion resulted in a change of sign
+ADC.h(23): warning:  #1-D: last line of file ends without a newline
+LCD.h(62): warning:  #1-D: last line of file ends without a newline
+main.c(25): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=2048 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"ADC.axf" - 0 Error(s), 7 Warning(s).

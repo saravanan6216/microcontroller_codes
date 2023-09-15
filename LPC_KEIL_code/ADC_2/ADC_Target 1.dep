@@ -1,0 +1,13 @@
+Dependencies for Project 'ADC', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI -g --apcs=interwork -I D:\Keil_v4\ARM\RV31\INC -I D:\Keil_v4\ARM\CMSIS\Include -I D:\Keil_v4\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\ADC.c)(0x6482F142)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I D:\Keil_v4\ARM\RV31\INC -I D:\Keil_v4\ARM\CMSIS\Include -I D:\Keil_v4\ARM\Inc\Philips -o "adc.o" --omf_browse "adc.crf" --depend "adc.d")
+I (D:\Keil_v4\ARM\Inc\Philips\LPC214x.h)(0x4F585AA4)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0F5AC)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0F5AE)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0F5AE)
+I (LCD-16x2-8bit.h)(0x6481B89E)
+F (.\LCD-16x2-8bit.h)(0x6481B89E)()
+F (.\LCD-16x2-8bit.c)(0x6482A6CF)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I D:\Keil_v4\ARM\RV31\INC -I D:\Keil_v4\ARM\CMSIS\Include -I D:\Keil_v4\ARM\Inc\Philips -o "lcd-16x2-8bit.o" --omf_browse "lcd-16x2-8bit.crf" --depend "lcd-16x2-8bit.d")
+I (LCD-16x2-8bit.h)(0x6481B89E)
+I (D:\Keil_v4\ARM\Inc\Philips\lpc214x.h)(0x4F585AA4)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0F5AC)

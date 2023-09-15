@@ -1,0 +1,22 @@
+Dependencies for Project 'main', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI -g --apcs=interwork -I D:\Keil_v4\ARM\RV31\INC -I D:\Keil_v4\ARM\CMSIS\Include -I D:\Keil_v4\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\main.c)(0x650012B1)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I D:\Keil_v4\ARM\RV31\INC -I D:\Keil_v4\ARM\CMSIS\Include -I D:\Keil_v4\ARM\Inc\Philips -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (D:\Keil_v4\ARM\Inc\Philips\LPC214x.h)(0x4F585AA4)
+I (clock.h)(0x648B1142)
+I (timer.h)(0x648B3A3A)
+I (UART.h)(0x648C0818)
+I (ADC.h)(0x650011C8)
+I (LCD.h)(0x648C0611)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0F5AC)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0F5AC)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0F5AE)
+I (DAC.h)(0x648C4AEE)
+I (interrupt.h)(0x648D5A1A)
+I (SPI.h)(0x64A3A685)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0F5AE)
+I (LCD-16x2-8bit.h)(0x648C0161)
+F (.\GIPO.h)(0x6489692F)()
+F (.\clock.h)(0x648B1142)()
+F (.\timer.h)(0x648B3A3A)()
+F (.\UART.h)(0x648C0818)()
+F (.\ADC.h)(0x650011C8)()

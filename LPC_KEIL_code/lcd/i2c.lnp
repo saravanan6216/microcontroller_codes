@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "lpc_i2c.o" 
+--strict --scatter "i2c.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\i2c.map" -o i2c.axf

@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\proteuscode\LPC_KEIL_code\rtosforlpc\main.uvproj
+Project File Date:  06/20/2023
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(87): warning:  #1-D: last line of file ends without a newline
+linking...
+main.axf: Error: L6218E: Undefined symbol vPortYieldProcessor (referred from startup.o).
+main.axf: Error: L6218E: Undefined symbol vTaskDelay (referred from main.o).
+main.axf: Error: L6218E: Undefined symbol vTaskStartScheduler (referred from main.o).
+main.axf: Error: L6218E: Undefined symbol xTaskCreate (referred from main.o).
+Target not created

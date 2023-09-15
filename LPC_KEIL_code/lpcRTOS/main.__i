@@ -1,0 +1,5 @@
+-c --cpu ARM7TDMI -g -O0 --apcs=interwork -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -ID:\Keil_v4\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include 
+-I D:\Keil_v4\ARM\RV31\INC 
+-I D:\Keil_v4\ARM\CMSIS\Include 
+-I D:\Keil_v4\ARM\Inc\Philips 
+-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o "main.o" --omf_browse "main.crf" --depend "main.d" "main.c"

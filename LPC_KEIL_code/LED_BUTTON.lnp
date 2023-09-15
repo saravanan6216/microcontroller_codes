@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "led_button.o" 
+--strict --scatter "LED_BUTTON.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LED_BUTTON.map" -o LED_BUTTON.axf

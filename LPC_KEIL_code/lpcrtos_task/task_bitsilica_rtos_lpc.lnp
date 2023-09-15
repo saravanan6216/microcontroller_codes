@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "heap_2.o" "list.o" "main.o" "port.o" "queue.o" "startup.o" "tasks.o" "portasm.o" 
+--strict --scatter "task_bitsilica_rtos_lpc.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\task_bitsilica_rtos_lpc.map" -o task_bitsilica_rtos_lpc.axf

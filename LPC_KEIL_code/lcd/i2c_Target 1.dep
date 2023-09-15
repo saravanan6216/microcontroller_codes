@@ -1,0 +1,5 @@
+Dependencies for Project 'i2c', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI -g --apcs=interwork -I D:\Keil_v4\ARM\RV31\INC -I D:\Keil_v4\ARM\CMSIS\Include -I D:\Keil_v4\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\lpc_i2c.c)(0x64995283)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I D:\Keil_v4\ARM\RV31\INC -I D:\Keil_v4\ARM\CMSIS\Include -I D:\Keil_v4\ARM\Inc\Philips -o "lpc_i2c.o" --omf_browse "lpc_i2c.crf" --depend "lpc_i2c.d")
+I (D:\Keil_v4\ARM\Inc\Philips\lpc214x.h)(0x4F585AA4)
+I (D:\Keil_v4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0F5AE)

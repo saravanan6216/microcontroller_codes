@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" 
+--strict --scatter "lpc21111.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\lpc21111.map" -o lpc21111.axf
