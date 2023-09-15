@@ -1,0 +1,10 @@
+12:07:11 **** Build of configuration Debug for project LED_blink_BARE ****
+make -j4 all 
+arm-none-eabi-size   LED_blink_BARE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5732	     20	   1572	   7324	   1c9c	LED_blink_BARE.elf
+Finished building: default.size.stdout
+ 
+
+12:07:12 Build Finished. 0 errors, 0 warnings. (took 574ms)
+

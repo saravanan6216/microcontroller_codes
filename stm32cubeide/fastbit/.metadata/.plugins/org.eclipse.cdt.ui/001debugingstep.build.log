@@ -1,0 +1,20 @@
+15:30:38 **** Build of configuration Debug for project 001debugingstep ****
+make -j4 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32l476rgtx.d" -MT"Startup/startup_stm32l476rgtx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32l476rgtx.o" "../Startup/startup_stm32l476rgtx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32L4 -DSTM32 -DNUCLEO_L476RG -DSTM32L476RGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32L4 -DSTM32 -DNUCLEO_L476RG -DSTM32L476RGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32L4 -DSTM32 -DNUCLEO_L476RG -DSTM32L476RGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "001debugingstep.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\stm32cubeide\fastbit\001debugingstep\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001debugingstep.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001debugingstep.elf
+ 
+arm-none-eabi-size   001debugingstep.elf 
+arm-none-eabi-objdump -h -S  001debugingstep.elf  > "001debugingstep.list"
+   text	   data	    bss	    dec	    hex	filename
+    644	      8	   1568	   2220	    8ac	001debugingstep.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001debugingstep.list
+ 
+
+15:30:41 Build Finished. 0 errors, 0 warnings. (took 3s.151ms)
+

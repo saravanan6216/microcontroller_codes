@@ -1,0 +1,9 @@
+11:28:23 **** Build of configuration Debug for project helloworld ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[D:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE//plugins/com.st.stm32cube.ide.jre.win64_2.4.101.202303251752/jre/bin/server;D:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE//plugins/com.st.stm32cube.ide.jre.win64_2.4.101.202303251752/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Microchip\xc8\v2.36\bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;;D:\Program Files\JetBrains\PyCharm 2023.1.4\bin;;D:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE]
+
+11:28:24 Build Failed. 1 errors, 0 warnings. (took 897ms)
+

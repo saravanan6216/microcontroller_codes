@@ -1,0 +1,10 @@
+06:40:53 **** Incremental Build of configuration Debug for project struct_queue ****
+make -j4 all 
+arm-none-eabi-size   struct_queue.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21652	    124	   5716	  27492	   6b64	struct_queue.elf
+Finished building: default.size.stdout
+ 
+
+06:40:53 Build Finished. 0 errors, 0 warnings. (took 432ms)
+

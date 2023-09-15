@@ -1,0 +1,10 @@
+08:57:14 **** Incremental Build of configuration Debug for project HIII ****
+make -j4 all 
+arm-none-eabi-size   HIII.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4848	     20	   1572	   6440	   1928	HIII.elf
+Finished building: default.size.stdout
+ 
+
+08:57:14 Build Finished. 0 errors, 0 warnings. (took 489ms)
+

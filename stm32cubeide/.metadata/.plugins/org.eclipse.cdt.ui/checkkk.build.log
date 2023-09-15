@@ -1,0 +1,10 @@
+12:26:05 **** Incremental Build of configuration Debug for project checkkk ****
+make -j4 all 
+arm-none-eabi-size   checkkk.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4964	     20	   1572	   6556	   199c	checkkk.elf
+Finished building: default.size.stdout
+ 
+
+12:26:06 Build Finished. 0 errors, 0 warnings. (took 678ms)
+

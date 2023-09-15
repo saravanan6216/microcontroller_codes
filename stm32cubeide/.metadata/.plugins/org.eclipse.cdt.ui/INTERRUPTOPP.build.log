@@ -1,0 +1,10 @@
+12:07:12 **** Incremental Build of configuration Debug for project INTERRUPTOPP ****
+make -j4 all 
+arm-none-eabi-size   INTERRUPTOPP.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6244	     20	   1572	   7836	   1e9c	INTERRUPTOPP.elf
+Finished building: default.size.stdout
+ 
+
+12:07:12 Build Finished. 0 errors, 0 warnings. (took 362ms)
+

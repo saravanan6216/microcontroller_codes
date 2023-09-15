@@ -1,0 +1,26 @@
+04:21:35 **** Incremental Build of configuration Debug for project HAL_LCD ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:21:
+../Core/Src/HAL_lcd.h: In function 'string':
+../Core/Src/HAL_lcd.h:93:3: warning: implicit declaration of function 'data' [-Wimplicit-function-declaration]
+   93 |   data(*s);
+      |   ^~~~
+../Core/Src/HAL_lcd.h: In function 'init_lcd_HAL':
+../Core/Src/HAL_lcd.h:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+   32 | }
+      | ^
+arm-none-eabi-gcc -o "HAL_LCD.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\stm32cubeide\HAL_LCD\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="HAL_LCD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: HAL_LCD.elf
+ 
+arm-none-eabi-size   HAL_LCD.elf 
+arm-none-eabi-objdump -h -S  HAL_LCD.elf  > "HAL_LCD.list"
+   text	   data	    bss	    dec	    hex	filename
+   6592	     20	   1572	   8184	   1ff8	HAL_LCD.elf
+Finished building: default.size.stdout
+ 
+Finished building: HAL_LCD.list
+ 
+
+04:21:36 Build Finished. 0 errors, 2 warnings. (took 1s.141ms)
+
